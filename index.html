@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Test</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" data-section-name="inicio" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-section-name="civil" href="#">Civil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-section-name="deontologia" href="#">Deontología</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Laboral
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" data-section-name="laboral.edurne" href="#">Edurne</a>
+              </li>
+              <li>
+                <a class="dropdown-item" data-section-name="laboral.garbine" href="#">Garbiñe</a>
+              </li>
+              <li>
+                <a class="dropdown-item" data-section-name="laboral.landa" href="#">Landa</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Nuevas modalidades
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" data-section-name="nuevas-modalidades.examen" href="#">Examen</a></li>
+              <li><a class="dropdown-item" data-section-name="nuevas-modalidades.profesores" href="#">Profesores</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Examenes oficiales (parte común)
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" data-section-name="examenes-oficiales.2022" href="#">2022</a></li>
+              <li><a class="dropdown-item" data-section-name="examenes-oficiales.2021" href="#">2021</a></li>
+              <li><a class="dropdown-item" data-section-name="examenes-oficiales.2017" href="#">2017</a></li>
+              <li><a class="dropdown-item" data-section-name="examenes-oficiales.2016" href="#">2016</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col col-12 mt-5">
+        <h2 id="page-title" class="text-center"></h2>
+      </div>
+
+      <!-- Index view -->
+      <div id="index-section">
+        <div class="row justify-content-center">
+          <div class="col col-sm-12 col-md-8">
+            <div class="py-4">
+              <h3>Finalidad de la página</h3>
+              <p>
+                Esta página está destinada a estudiantes del master de abogacía
+                de la UPV para presentarse a los exámenes.
+              </p>
+              <p>
+                En cada test se va mostrando al momento de responder si la respuesta
+                es correcta o no, además, muestra un progreso de las respuestas totales
+                acertadas, falladas y las que quedan por responder.
+              </p>
+            </div>
+            <h3>Funcionamiento y cosas a tener en cuenta</h3>
+            <p>
+              Esta página altera el orden tanto de las preguntas como de las respuestas
+              para evitar memorizar las posiciones de las respuestas y obligar a tener
+              que leerlas.
+            </p>
+            <p>
+              <span><b>*Importante:</b></span>
+              Esta alteración del orden se hace cada vez que se refresque la
+              página o cada vez que se cambie de sección, además, se perderá
+              el progeso hecho en esa página, por lo que lo ideal es que en el
+              momento en el que se empiece a hacer un test de alguna sección,
+              se finalice por completo antes de pasar al siguiente.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Index view -->
+
+    <div id="question-content" class="col">
+      <div class="card mb-6 mt-5">
+        <div class="card-body">
+          <div class="card-text">
+            <div id="container-preguntas">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav id="progress-info-bar" class="navbar fixed-bottom bg-primary top-shadow" data-bs-theme="dark">
+    <div class="container">
+      <div class="row w-100">
+        <div class="col">
+          <div class="d-flex flex-row align-content-center">
+            <p class="navbar-brand p-0 mb-0 lh-1 text-center">
+              Progreso
+              <br>
+              <span id="contador-respondidas" class="fs-6 fw-light"></span>
+            </p>
+            <div class="w-100 d-flex text-white mt-1 flex-column justify-content-center">
+              <!-- <span class="w-10 h-fc">0</span> -->
+              <div class="progress-stacked w-100">
+                <div id="aciertos-progress-bar" class="progress" role="progressbar" aria-label="Aciertos"
+                  aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar bg-success"></div>
+                </div>
+                <div id="fallos-progress-bar" class="progress" role="progressbar" aria-label="fallos" aria-valuenow="0"
+                  aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar bg-danger"></div>
+                </div>
+              </div>
+              <div class="d-flex">
+                <p class="m-0">Aciertos: <span id="numero-aciertos">0</span></p>
+                <p class="mx-3 mb-0">|</p>
+                <p class="m-0">Fallos: <span id="numero-fallos">0</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+  </script>
+  <!-- Load all questions data -->
+  <script src="./js/data/civil.js"></script>
+  <script src="./js/data/deontologia.js"></script>
+  <script src="./js/data/examenes_finales/2016.js"></script>
+  <script src="./js/data/examenes_finales/2017.js"></script>
+  <script src="./js/data/examenes_finales/2021.js"></script>
+  <script src="./js/data/examenes_finales/2022.js"></script>
+  <script src="./js/data/laboral/edurne.js"></script>
+  <script src="./js/data/laboral/garbine.js"></script>
+  <script src="./js/data/laboral/landa.js"></script>
+  <script src="./js/data/nuevas_modalidades/profes.js"></script>
+  <script src="./js/data/nuevas_modalidades/examen.js"></script>
+  <!-- Apply logic to the page -->
+  <script src="./js/questionObject.js"></script>
+  <script src="./js/dataLoader.js"></script>
+  <script src="./js/dynamicContent.js"></script>
+  <script src="./js/sectionQuestions.js"></script>
+</body>
+
+</html>

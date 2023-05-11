@@ -1,0 +1,35 @@
+.w-80 {
+	width: 80%;
+}
+
+.w-10 {
+	width: 10%;
+}
+
+.h-fc {
+	height: fit-content;
+}
+
+.mb-6 {
+	margin-bottom: 5rem !important;
+}
+
+.card-line-separator {
+	position: relative;
+	left: -16px;
+	width: calc(100% + 32px);
+}
+
+.top-shadow {
+	-webkit-box-shadow: 0px -5px 23px -10px rgba(0, 0, 0, 0.78);
+	-moz-box-shadow: 0px -5px 23px -10px rgba(0, 0, 0, 0.78);
+	box-shadow: 0px -5px 23px -10px rgba(0, 0, 0, 0.78);
+}
+
+#question-content {
+	display: none;
+}
+
+#progress-info-bar {
+	display: none;
+}
