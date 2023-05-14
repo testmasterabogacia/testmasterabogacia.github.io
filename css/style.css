@@ -33,3 +33,14 @@
 #progress-info-bar {
 	display: none;
 }
+
+#change-log-inner-accordion button span {
+	font-size: .9rem;
+    margin-left: 0.5rem;
+    color: grey;
+}
+
+/* Bootstrap override  */
+.accordion-button:not(.collapsed) {
+	color: black;
+}

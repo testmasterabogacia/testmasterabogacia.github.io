@@ -146,7 +146,7 @@ const civilJson = [
   },
   {
     pregunta: "En el proceso civil, la prueba pericial",
-    respuestaCorrecta: 2,
+    respuestaCorrecta: 3,
     respuestas: [
       "sólo puede admitirse si la propone cualquiera de las partes",
       "sólo puede admitirse si la propone el Juez",
@@ -652,6 +652,138 @@ const civilJson = [
       "Las notas marginales desaparecen como asiento del Registro Civil en la  configuración dada por la Ley 20/2011",
       "Conforme a la Ley 20/2011, las inscripciones pueden ser principales o  marginales y las primeras abren folio registral",
       "El asiento de cancelación únicamente puede practicarse a instancia de persona  interesada",
+    ],
+  },
+  {
+    pregunta:
+      "¿Puede admitirse a trámite una petición de autorización de traslado de centro escolar efectuada por una madre al amparo de lo dispuesto en el art 158 del CC?",
+    respuestaCorrecta: 3,
+    respuestas: [
+      "Si, porque el art. 158 permite cualquier petición relacionada con menores",
+      "Sí porque está especialmente previsto en el art. 158 del CC",
+      "No porque el procedimiento adecuado será el de un divorcio",
+      "No porque el procedimiento adecuado es el del art. 156 de discrepancia en el ejercicio de la patria potestad",
+    ],
+  },
+  {
+    pregunta:
+      "¿Ha de explorarse siempre a los hijos mayores de doce años en procedimientos en los que la custodia se debate?",
+    respuestaCorrecta: 1,
+    respuestas: [
+      "Si, hay que explorarles siempre",
+      "No, pueden ser también escuchados a través del equipo psico-social",
+      "No, solamente si los menores lo solicitan",
+      "Si, pero solo a los mayores de 14 años",
+    ],
+  },
+  {
+    pregunta:
+      "Unas medidas acordadas en procedimiento sobre medidas previas o provisionalísimas del art 771 de la LEC, ¿cuánto duran?",
+    respuestaCorrecta: 0,
+    respuestas: [
+      "Treinta días hábiles",
+      "Un mes",
+      "Hasta que se dictan las definitivas",
+      "Hasta que se resuelve la apelación",
+    ],
+  },
+  {
+    pregunta:
+      "Un hijo mayor de edad ¿puede pedir en una demanda sobre alimentos que se le atribuya el uso de la vivienda familiar a él?",
+    respuestaCorrecta: 2,
+    respuestas: [
+      'Sí porque está comprendido dentro del concepto "habitación"',
+      "Sí, si constituye el interés más necesitado de protección",
+      "No porque es una medida que escapa al contenido del art. 142 del Cc",
+      "Sí si la familia cuenta con otra vivienda",
+    ],
+  },
+  {
+    pregunta:
+      "¿Puede solicitarse la liquidación de la sociedad de ganancias en medidas provisionales previas?",
+    respuestaCorrecta: 2,
+    respuestas: [
+      "Se puede pedir solo la formación de inventario",
+      "Si puede solicitar a liquidacion si llegan a un acuerdo ambas parte",
+      "No se puede hacer",
+      "Puede solicitarse en un procedimiento específico independiente",
+    ],
+  },
+  {
+    pregunta:
+      "¿Procede inadmitir una demanda de medidas provisionales previas del art 771 de la LEC por falta de urgencia?",
+    respuestaCorrecta: 2,
+    respuestas: [
+      "Sí porque es requisito imprescindible que exista urgencia para su admisión",
+      "Sí porque no puede admitirlas y luego no acordarlas",
+      "No es requisito para su admisión",
+      "Si si no va acompañada de demanda principal",
+    ],
+  },
+  {
+    pregunta:
+      "¿Puede solicitar una pensión compensatoria un cónyuge que percibe salario?",
+    respuestaCorrecta: 0,
+    respuestas: [
+      "Si porque el presupuesto para su concesión es que la ruptura produzca un desequilibrio económico.",
+      "No porque si percibe un salario no le es necesaria la pensión",
+      "Sí siempre que la solicite en procedimiento de divorcio y no de separación",
+      "Solo en el caso de que el salario no alcance el Salario Mínimo Interprofesional",
+    ],
+  },
+  {
+    pregunta:
+      "¿Puede otorgarse el uso de la vivienda familiar a uno de los cónyuges si no es titular del inmueble?",
+    respuestaCorrecta: 3,
+    respuestas: [
+      "De ninguna manera",
+      "Sólo si la vivienda es de ambos cónyuges",
+      "Sólo si hay hijos aunque sean mayores de edad",
+      "Si, siempre que sea el cónyuge custodio o constituya el interés más necesitado de protección",
+    ],
+  },
+  {
+    pregunta:
+      "¿Qué Juzgado es competente para conocer una demanda de divorcio?",
+    respuestaCorrecta: 0,
+    respuestas: [
+      "El del domicilio conyugal",
+      "El del lugar donde se interpusieron las medidas previas del art. 771 de la LEC",
+      "El del lugar donde se encuentre en ese momento aunque no sea el del domicilio conyugal",
+      "El de residencia del demandante",
+    ],
+  },
+  {
+    pregunta:
+      "¿Ha de otorgarse siempre la guarda y custodia compartida en el Pais Vasco después de la entrada en vigor de la Ley 7/2015 de 30 de junio?",
+    respuestaCorrecta: 2,
+    respuestas: [
+      "Si porque la Ley 2/2015 la impone",
+      "Sólo si los menores acceden a ello",
+      "No, solamente si resulta lo más beneficioso para el menor y se cumplen los requisitos de la ley",
+      "Sí siempre que no se separe a los hermanos",
+    ],
+  },
+  {
+    pregunta:
+      "Evaristo recibió ayer la notificación de la Sentencia acordando el divorcio de su matrimonio con Filomena ¿Puede desde ahora casarse con Ruperta?",
+    respuestaCorrecta: 2,
+    respuestas: [
+      "Puede casarse sin problema",
+      "Tiene que esperar a que notifiquen la Sentencia al Ministerio Fiscal",
+      "No puede casarse hasta que la Sentencia de divorcio esté inscrita en el Registro Civil",
+      "Podrá casarse en cuanto la sentencia de divorcio sea firme",
+    ],
+  },
+  {
+    pregunta:
+      "Filomena y Evaristo están divorciados y la custodia del hijo menor se otorgó a la madre Filomena ha inscrito al hijo en un colegio religioso con el que Evaristo no está conforme ¿Puede hacer algo?",
+    respuestaCorrecta: 3,
+    respuestas: [
+      "No puede hacer nada porque la custodia la tiene la madre",
+      "No puede hacer nada porque tenía que haberse opuesto en el procedimiento de divorcio",
+      "Puede instar un procedimiento de modificación de medidas",
+      "Puede instar expediente de jurisdicción voluntaria por discrepancia en el ejercicio de la patria potestad",
     ],
   },
 ];

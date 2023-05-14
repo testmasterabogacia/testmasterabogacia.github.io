@@ -73,4 +73,6 @@ class SectionQuestions {
   }
 }
 
-new SectionQuestions();
+document.addEventListener("DOMContentLoaded", function (e) {
+  new SectionQuestions();
+});

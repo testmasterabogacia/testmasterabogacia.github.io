@@ -81,7 +81,90 @@
       <!-- Index view -->
       <div id="index-section">
         <div class="row justify-content-center">
-          <div class="col col-sm-12 col-md-8">
+          <!-- Change Log -->
+          <div class="col-sm-12 col-md-10">
+            <div class="py-4">
+              <div class="accordion">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button fs-5 fw-bold" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Listado de cambios
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse change-log-accordion collapse show"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Aquí se irá poniendo los cambios que se vayan subiendo,
+                      como correcciónes de preguntas o nuevas funciones añadidas.
+
+                      <div class="accordion pt-4 pb-3" id="change-log-inner-accordion">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapseOne" aria-expanded="false"
+                              aria-controls="flush-collapseOne">
+                              Nuevas preguntas <span> - 14/5/2023</span>
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                              Se han añadido nuevas preguntas a la sección de
+                              <b>Civil</b>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                              aria-controls="flush-collapseTwo">
+                              Correcciones de preguntas <span> - 14/5/2023</span>
+                            </button>
+                          </h2>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                              <p>
+                                Se ha corregido la siguiente pregunta de la
+                                sección de <b>Civil</b>:
+                              </p>
+                              <div class="card">
+                                <div class="card-body">
+                                  En el proceso civil, la prueba pericial:
+                                  <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                      1. sólo puede admitirse si la propone cualquiera de las partes
+                                    </li>
+                                    <li class="list-group-item">
+                                      2. sólo puede admitirse si la propone el Juez
+                                    </li>
+                                    <li class="list-group-item list-group-item-danger">
+                                      3. sólo puede admitirse si la propone cualquiera de las partes o la propone el
+                                      Juez <b>(antes)</b>
+                                    </li>
+                                    <li class="list-group-item list-group-item-success">
+                                      4. sólo puede admitirse a instancia de parte y excepcionalmente de oficio en
+                                      determinados procesos como los de filiación, capacidad o matrimonial. (LEC 339.5)
+                                      <b>(ahora)</b>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /Change Log -->
+          <!-- About page -->
+          <div class="col-sm-12 col-md-8">
             <div class="py-4">
               <h3>Finalidad de la página</h3>
               <p>
@@ -109,6 +192,7 @@
               se finalice por completo antes de pasar al siguiente.
             </p>
           </div>
+          <!-- /About page -->
         </div>
       </div>
     </div>
