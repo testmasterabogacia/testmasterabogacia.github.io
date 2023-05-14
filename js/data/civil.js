@@ -256,7 +256,7 @@ const civilJson = [
   },
   {
     pregunta: "En la audiencia previa:",
-    respuestaCorrecta: 3,
+    respuestaCorrecta: 2,
     respuestas: [
       "El juez propone las pruebas que considere pertinentes y son las partes quienes han de manifestar si les son suficientes o desean añadir otras.",
       "Es la parte demandada la única que puede proponer prueba.",
