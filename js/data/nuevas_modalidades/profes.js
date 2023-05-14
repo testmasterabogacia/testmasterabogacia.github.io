@@ -108,4 +108,59 @@ const nuevasModalidadesProfesoresJson = [
       "La policía judicial puede llevar a cabo tal diligencia sin necesidad de autorización judicial, y la grabación obtenida podrá ser aportada como prueba en el proceso penal.",
     ],
   },
+  {
+    pregunta:
+      "¿Las personas jurídicas pueden cometer todos los delitos del Código Penal?",
+    respuestaCorrecta: 2,
+    respuestas: [
+      "Sí, siempre que tengan carácter económico.",
+      "Sí.",
+      "No, sólo los establecidos.",
+      "No, sólo los de estafa.",
+    ],
+  },
+  {
+    pregunta:
+      "¿Los “Compliance” diseñados y ejecutados conforme al art 315 bis CP tiene efecto exonerador de la responsabilidad penal de las personas jurídicas?",
+    respuestaCorrecta: 2,
+    respuestas: [
+      "No.",
+      "Sólo en el caso de que fueran pymes.",
+      "Sí",
+      "Sólo en caso de que superen una auditoria del Ministerio Fiscal.",
+    ],
+  },
+  {
+    pregunta:
+      "¿La rebeldía de la persona jurídica paraliza el proceso penal en su contra?",
+    respuestaCorrecta: 0,
+    respuestas: [
+      "No, se continuará con todos los trámites hasta su conclusión.",
+      "Sí, y se deberá detener a la persona jurídica.",
+      "Sólo sí la pena solicitada supera los dos años",
+      "No, en caso de que la actuación sea de la Audiencia Nacional.",
+    ],
+  },
+  {
+    pregunta:
+      "¿Se nombrará de oficio abogado y procurador a la persona jurídica en caso de que no lo haga?",
+    respuestaCorrecta: 0,
+    respuestas: [
+      "Si",
+      "Lo hará el representante legal designado.",
+      "No.",
+      "Sólo en caso de ser beneficiario de justicia gratuita.",
+    ],
+  },
+  {
+    pregunta:
+      "Cuando se haya procedido a la imputación de una persona jurídica, se tomará declaración a…",
+    respuestaCorrecta: 3,
+    respuestas: [
+      "Al gerente.",
+      "Al autor del delito.",
+      "Al Administrador Único.",
+      "Al representante especialmente designado.",
+    ],
+  },
 ];
