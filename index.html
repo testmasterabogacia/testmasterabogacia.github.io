@@ -53,6 +53,8 @@
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" data-section-name="nuevas-modalidades.examen" href="#">Examen</a></li>
               <li><a class="dropdown-item" data-section-name="nuevas-modalidades.profesores" href="#">Profesores</a>
+              <li><a class="dropdown-item" data-section-name="nuevas-modalidades.evaluacion" href="#">Evaluación
+                  propia</a>
               </li>
             </ul>
           </li>
@@ -101,6 +103,22 @@
                       <div class="accordion pt-4 pb-3" id="change-log-inner-accordion">
                         <div class="accordion-item">
                           <h2 class="accordion-header">
+                            <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapseOneOne" aria-expanded="false"
+                              aria-controls="flush-collapseOneOne">
+                              Nueva sección <span> - 17/5/2023</span>
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOneOne" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                              Se ha añadido la sección de <b>'Evaluación propia'</b>
+                              bajo <b>'Nuevas modalidades'</b>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                               data-bs-target="#flush-collapseOne" aria-expanded="false"
                               aria-controls="flush-collapseOne">
@@ -111,7 +129,7 @@
                             data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
                               Se han añadido nuevas preguntas a la sección de
-                              <b>Civil</b> y de <b>Nuevas modalidades/Profesores</b>
+                              <b>'Civil'</b> y de <b>'Nuevas modalidades/Profesores'</b>
                             </div>
                           </div>
                         </div>
@@ -281,6 +299,7 @@
   <script src="./js/data/laboral/landa.js"></script>
   <script src="./js/data/nuevas_modalidades/profes.js"></script>
   <script src="./js/data/nuevas_modalidades/examen.js"></script>
+  <script src="./js/data/nuevas_modalidades/evaluacion.js"></script>
   <!-- Apply logic to the page -->
   <script src="./js/questionObject.js"></script>
   <script src="./js/dataLoader.js"></script>

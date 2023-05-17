@@ -50,12 +50,7 @@ class DataLoader {
       const datos = this.jsonData[key];
       const pregunta = datos["pregunta"];
       const respuestas = datos["respuestas"];
-      const bloqueDiv = this.getPreguntaTemplate(
-        key,
-        pregunta,
-        respuestas,
-        index
-      );
+      this.getPreguntaTemplate(key, pregunta, respuestas, index);
       // this.containerPreguntas.appendChild(bloqueDiv);
     });
   }
@@ -129,8 +124,9 @@ class DataLoader {
         "list-group-item-action"
       );
       buttonRespuesta.innerText = textoRespuesta;
-      buttonRespuesta.addEventListener("click", function () {
+      buttonRespuesta.addEventListener("click", function cr(e) {
         that.checkRespuesta(this, letraRespuesta);
+        e.currentTarget.removeEventListener(e.type, cr);
       });
       liItems.push(buttonRespuesta);
     });

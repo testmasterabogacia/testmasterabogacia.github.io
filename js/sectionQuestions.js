@@ -28,6 +28,9 @@ class SectionQuestions {
       "nuevas-modalidades.profesores": {
         relativePath: "nuevasModalidadesProfesoresJson",
       },
+      "nuevas-modalidades.evaluacion": {
+        relativePath: "nuevasModalidadesEvaluacionJson",
+      },
       "examenes-oficiales.2022": {
         relativePath: "examenesOficiales2022Json",
       },
