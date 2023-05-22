@@ -142,7 +142,7 @@ const laboralGarbineJson = [
   {
     pregunta:
       "La sentencia que declara la nulidad por apreciar fraude en la conclusión del acuerdo de extinción por causas económicas de los contratos de 10 trabajadores de la empresa mecanizados SA de Tolosa con una plantilla de 52 trabajadores/as",
-    respuestaCorrecta: 0,
+    respuestaCorrecta: 3,
     respuestas: [
       "Es recurrible en suplicación en la Sala de lo Social del TSJ del País Vasco por ser una sentencia dictada por el Juzgado de lo Social de San Sebastián en un proceso de extinción por causas objetivas.",
       "La sentencia ha sido dictada por la Sala de lo Social del TSJ del País Vasco y puede recurrirse en casación unificadora de doctrina ante el Tribunal Supremo.",

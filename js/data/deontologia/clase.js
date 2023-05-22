@@ -1,4 +1,4 @@
-const deontologiaJson = [
+let claseJson = [
   {
     pregunta:
       "El contenido del derecho positivo de la Abogacía se encuentra en numerosas disposiciones legales, si bien se manifiesta en las relaciones entre el Abogado:",

@@ -10,8 +10,11 @@ class SectionQuestions {
       civil: {
         relativePath: "civilJson",
       },
-      deontologia: {
-        relativePath: "deontologiaJson",
+      "deontologia.clase": {
+        relativePath: "claseJson",
+      },
+      "deontologia.extra": {
+        relativePath: "extraJson",
       },
       "laboral.edurne": {
         relativePath: "laboralEdurneJson",

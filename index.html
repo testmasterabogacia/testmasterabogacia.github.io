@@ -24,8 +24,14 @@
           <li class="nav-item">
             <a class="nav-link" data-section-name="inicio" aria-current="page" href="#">Inicio</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" data-section-name="deontologia" href="#">Deontología</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Deontología
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" data-section-name="deontologia.clase" href="#">Clase</a></li>
+              <li><a class="dropdown-item" data-section-name="deontologia.extra" href="#">Extra</a></li>
+            </ul>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -273,7 +279,8 @@
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
   </script>
   <!-- Load all questions data -->
-  <script src="./js/data/deontologia.js"></script>
+  <script src="./js/data/deontologia/extra.js"></script>
+  <script src="./js/data/deontologia/clase.js"></script>
   <script src="./js/data/examenes_finales/2016.js"></script>
   <script src="./js/data/examenes_finales/2017.js"></script>
   <script src="./js/data/examenes_finales/2021.js"></script>
