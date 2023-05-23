@@ -215,7 +215,7 @@ let extraJson = [
     respuestas: [
       "No, porque las sociedades formadas para realizar actividades profesionales nunca pueden integrar a socios que se dediquen a otra actividad.",
       "Sí, ya que es posible que la actividad de la sociedad sea multidisciplinar.",
-      "No, ya que el desempeño de la actividad de abogado y procurador es incompatible según la ley.",
+      "No, ya que el desempeño de la actividad de abogado y procurador es incompatible según la ley. (Esto ha sido reformado por la ley 15/2021 del 23 de octubre, que dice que abogados y procuradores podrán integrarse en la misma sociedad profesional siempre que trabajen de forma totalmente autónoma e independiente. Aun así, sigue siendo incompatible ser procurador y abogado a la vez.)",
       "Sí, ya que la legislación mercantil no establece ninguna limitación en función de la actividad a la que se dediquen los socios.",
     ],
   },
