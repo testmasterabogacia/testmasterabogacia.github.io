@@ -167,7 +167,7 @@ let extraJson = [
   {
     pregunta:
       "Izaskun y Carlos han aprobado el examen de acceso a la profesión de abogado Se plantean su futuro y están considerando las diferentes formas en la cuales pueden ejercer la profesión Indique la respuesta correcta:",
-    respuestaCorrecta: 2,
+    respuestaCorrecta: 1,
     respuestas: [
       "Pueden ejercer la profesión de manera individual, por cuenta propia o por cuenta ajena.",
       "Pueden ejercer la profesión de manera individual bien por cuenta propia o por cuenta ajena, o de manera colectiva mediante la agrupación bajo cualquiera de las fórmulas lícitas en derecho, incluidas las sociedades mercantiles.",
