@@ -658,10 +658,9 @@ const laboralEdurneJson = [
   },
   {
     pregunta:
-      "Una persona ha venido prestando servicios laborales, con la categoría profesional de especialista, en virtud de diversos contratos temporales siempre suscritos a través de una empresa de trabajo temporal, siendo cedido también en todos los supuestos a la misma empresa usuaria, dedicada al comercio de ropa infantil, mediante contratos de puesta a disposición La causa que se hizo constar en todos los contratos era por «campaña de promoción de rebajas y entrada de nuevos productos»",
+      "Una persona ha venido prestando servicios laborales, con la categoría profesional de especialista, en virtud de diversos contratos temporales siempre suscritos a través de una empresa de trabajo temporal, siendo cedido también en todos los supuestos a la misma empresa usuaria, dedicada al comercio de ropa infantil, mediante contratos de puesta a disposición La causa que se hizo constar en todos los contratos era por «campaña de promoción de rebajas y entrada de nuevos productos». La ETT le comunicó verbalmente su cese. Se plantea la posible responsabilidad solidaria de la empresa usuaria en relación con las consecuencias derivadas de la improcedencia del despido",
     respuestaCorrecta: 1,
     respuestas: [
-      "La ETT le comunicó verbalmente su cese. Se plantea la posible responsabilidad solidaria de la empresa usuaria en relación con las consecuencias derivadas de la improcedencia del despido",
       "No se declararía la improcedencia",
       "Hay fraude de ley, y por tanto, ambas empresas responderán solidariamente ante la solicitud de indemnización del trabajador",
       "La legislación permite este tipo de contratos con la misma causa siempre que sea en el marco de ETT y empresas usuarias",
@@ -773,7 +772,8 @@ const laboralEdurneJson = [
     respuestaCorrecta: 0,
     respuestas: [
       "No, salvo en el caso de algunas relaciones laborales  especiales",
-      "No, esa causa no está contemplada en el art. 54 ET 3. Sí",
+      "No, esa causa no está contemplada en el art. 54 ET",
+      "Sí",
       "Sí, siempre que los hechos que constituyan la falta de  confianza se recojan en la carta de despido",
     ],
   },
@@ -812,7 +812,7 @@ const laboralEdurneJson = [
   },
   {
     pregunta:
-      "¿Tendría el empresario justa causa para despedir en el caso de que  acreditara la embriaguez habitual del trabajador soldador de  profesión- fuera de sus horas de trabajo?",
+      "¿Tendría el empresario justa causa para despedir en el caso de que  acreditara la embriaguez habitual del trabajador -soldador de profesión- fuera de sus horas de trabajo?",
     respuestaCorrecta: 1,
     respuestas: [
       "Sí, siempre que se acredite la culpabilidad del trabajador",
@@ -823,8 +823,19 @@ const laboralEdurneJson = [
   },
   {
     pregunta:
-      "María de las Angustias López es profesora de religión en el Colegio  La Milagrosa Está casada y tiene 5 hijos pero decide divorciarse  ¿Tendría el centro justa causa para “despedir” a la docente de  religión?",
+      "¿Tendría el empresario justa causa para despedir en el caso de que  acreditara la embriaguez habitual del trabajador -piloto de aviones- fuera de sus horas de trabajo?",
     respuestaCorrecta: 2,
+    respuestas: [
+      "Sí, siempre que se acredite la culpabilidad del trabajador",
+      "No, las causas del despido disciplinario se ciñen a la relación laboral",
+      "Sí, debido a las características del trabajo que desempeña un piloto y en base a la transgresión de la buena fe contractual (jurisprudencia)",
+      "No",
+    ],
+  },
+  {
+    pregunta:
+      "María de las Angustias López es profesora de religión en el Colegio  La Milagrosa Está casada y tiene 5 hijos pero decide divorciarse  ¿Tendría el centro justa causa para “despedir” a la docente de  religión?",
+    respuestaCorrecta: 0,
     respuestas: [
       "Sí, por tratarse de una empresa de tendencia  (jurisprudencia)",
       "No, porque no constituiría un incumplimiento grave y  culpable de la trabajadora",
@@ -857,7 +868,7 @@ const laboralEdurneJson = [
   {
     pregunta:
       "Lourdes Menéndez, autónoma que emplea a seis trabajadores se  enzarza en una discusión con una de las trabajadoras a su cuenta, a  causa de las reiteradas faltas injustificadas al centro de trabajo de  ésta y le espeta que está despedida a partir de ese mismo momento  ¿Qué declarará el juez y, en su caso, ¿qué opción le queda a la Sra Menéndez?",
-    respuestaCorrecta: 0,
+    respuestaCorrecta: 1,
     respuestas: [
       "Despido procedente. La Sra. Menéndez no debe pagar  indemnización alguna por tratarse de un despido disciplinario",
       "Despido improcedente aunque si la Sra. Genoveva opta por  la readmisión de la trabajadora, puede realizar un nuevo  despido en fondo y forma en los siguientes 7 días a la  notificación de la sentencia (art. 110.4 LRJS. También cabe la  posibilidad de no esperar la sentencia, vid. Art. 55.2 ET)",

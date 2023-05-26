@@ -68,7 +68,7 @@ const laboralGarbineJson = [
   {
     pregunta:
       "Las Salas de lo Social de los TSJ conocen de los recursos de suplicación que se interpongan contra las resoluciones dictadas por los Juzgados de lo Social de su circunscripción y, en este sentido, el recurso tendrá por objeto:",
-    respuestaCorrecta: 2,
+    respuestaCorrecta: 3,
     respuestas: [
       "Reponer los autos al estado en que se encontraban al momento de cometerse infracción de normas o garantías del procedimiento que haya producido indefensión",
       "Revisar los hechos declarados probados, a la vista de las pruebas documentales y periciales practicadas",
