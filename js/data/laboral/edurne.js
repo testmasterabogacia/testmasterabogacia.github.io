@@ -2,9 +2,10 @@ const laboralEdurneJson = [
   {
     pregunta:
       "La empresa “Delgados Hermanos, SA” decide llevar su planta de producción del parque de Zuatzu (Donostia) a Logroño No hay representantes de los trabajadores y comunica a los trabajadores que deben elegir a 3 entre ellos para ser nombrados representantes en una comisión creada al efecto ¿quién decide el traslado en última instancia?",
-    respuestaCorrecta: 0,
+    respuestaCorrecta: 1,
     respuestas: [
-      "La comisión creada al efecto no es legal por lo que el período de consultas debería volver a iniciarse El empresario, tras la finalización del período de consultas con los representantes de los trabajadores y aunque no exista acuerdo",
+      "La comisión creada al efecto no es legal por lo que el período de consultas debería volver a iniciarse",
+      "El empresario, tras la finalización del período de consultas con los representantes de los trabajadores y aunque no exista acuerdo",
       "El empresario junto a los trabajadores perjudicados",
       "El empresario tras la finalización del período de consultas con los representantes de los trabajadores y siempre que exista acuerdo",
     ],
@@ -879,7 +880,7 @@ const laboralEdurneJson = [
   {
     pregunta:
       "Eduardo Agirre es afiliado a CCOO y es despedido por  transgresión de la buena fe contractual Sin embargo, el despido se  efectúa sin que el empresario cumpla el trámite de conceder  audiencia al delegado sindical de CCOO en la empresa ¿Cuál será la  calificación de ese despido?",
-    respuestaCorrecta: 1,
+    respuestaCorrecta: 2,
     respuestas: [
       "Procedente, ya que la ley exige trámite de audiencia si el  despedido es el delegado sindical",
       "Procedente",
@@ -901,7 +902,7 @@ const laboralEdurneJson = [
   {
     pregunta:
       "En un juicio queda demostrado que Lourdes García fue  procedentemente sancionada por faltas reiteradas de puntualidad  aunque la juez estima que la sanción está incorrectamente graduada  (tres meses de suspensión de empleo y sueldo) Por ello, en la  sentencia, reduce la sanción a dos meses de suspensión de empleo y  suelo",
-    respuestaCorrecta: 2,
+    respuestaCorrecta: 3,
     respuestas: [
       "Es correcto",
       "No es correcto. La juez debería haber revocado la sanción",
@@ -923,12 +924,166 @@ const laboralEdurneJson = [
   {
     pregunta:
       "A Alex de la Iglesia le han reconocido que el traslado que ordenó  su empresa y que le suponía marcharse a vivir a Cádiz cuando él  reside en Bilbao, no estaba justificado por la causa organizativa que  esgrimió la empresa Sin embargo, la empresa no ejecuta la  sentencia ¿Qué posibilidades tiene el trabajador?",
-    respuestaCorrecta: 2,
+    respuestaCorrecta: 1,
     respuestas: [
       "Solicitar la rescisión del contrato, con una indemnización de 20  días de salario por año de servicio (límite: 12 mensualidades)",
       "Solicitar la extinción del contrato, con una indemnización de 33  días de salario por año de servicio (límite: 24 mensualidades)",
       "Solicitar la extinción del contrato, con una indemnización de 45  días de salario por año de servicio (límite: 42 mensualidades)",
       "Interponer recurso ante el órgano jurisdiccional superior, y  reclamar los salarios de tramitación",
+    ],
+  },
+  {
+    pregunta:
+      "A la vez que se está recibiendo un desempleo contributivo, ¿puede trabajar el trabajador?",
+    respuestaCorrecta: 3,
+    respuestas: [
+      "Sólo en el caso de que tenga “cargas familiares” conforme se definan en la ley",
+      "Sí, pero deberá suscribir un compromiso de no que el salario no supera el SMI",
+      "No",
+      "Sí, en ciertos supuestos de reducción de jornada y suspensión del contrato de trabajo",
+    ],
+  },
+  {
+    pregunta:
+      "¿Tiene derecho el trabajador a una reducción de su jornada de trabajo del 50% con derecho a desempleo, tras haber seguido un procedimiento de modificación de las condiciones de trabajo sustantivas del artículo 41 ET?",
+    respuestaCorrecta: 1,
+    respuestas: [
+      "Sí, dado que la Ley exige que se reduzca la jornada entre un 10 y un 70%",
+      "No, dado que esa reducción no tiene carácter temporal",
+      "Sólo tendrá derecho si se constata que dicha reducción no seguirá más allá de 6 meses",
+      "Sí, pero sólo tendrá derecho al subsidio por desempleo",
+    ],
+  },
+  {
+    pregunta:
+      "Antonio ha sido despedido por facilitar información sensible de la empresa a una empresa de la competencia El juez considera procedente el despido ¿Tiene el trabajador derecho al desempleo?",
+    respuestaCorrecta: 3,
+    respuestas: [
+      "No, dado que la definición de desempleo comporta una voluntad de trabajar y la calificación de procedencia del despido no lo demuestra",
+      "Sí, pero el trabajador tendrá una penalización sobre la cuantía de la prestación de desempleo que le corresponda de un 10%",
+      "Sí, pero el trabajador tendrá que esperar tres meses hasta poder solicitar la prestación por desempleo",
+      "Sí",
+    ],
+  },
+  {
+    pregunta:
+      "Alejandro Miguel Rodríguez ha trabajado durante 3 años pero el empleador no le dio de alta ni cotizó por él Ahora se ha quedado sin trabajo ¿Tendría derecho al desempleo?",
+    respuestaCorrecta: 0,
+    respuestas: [
+      "Se encontraría en situación de alta de pleno derecho lo que le daría derecho al desempleo",
+      "No, ya que tendría que haber denunciado la situación de ilegalidad",
+      "Sí, ya que el trabajador no puede dejar de recibir el desempleo por una irresponsabilidad del empresario",
+      "Tendría derecho al subsidio de desempleo si acreditara encontrarse en las situaciones descritas por la LGSS para cobrar esta ayuda",
+    ],
+  },
+  {
+    pregunta:
+      "Fernando Colomeras discrepa de la reducción de jornada acordada entre la empresa y el comité de empresa y, tal y como le permite el artículo 41 LE, impugna la decisión ante un Tribunal El tribunal sostiene que esta decisión no tiene una razón objetiva para acordarse Sin embargo, la empresa no ejecuta la sentencia y el trabajador solicita la extinción del contrato de trabajo ¿Tendrá derecho al desempleo?",
+    respuestaCorrecta: 0,
+    respuestas: [
+      "Sí",
+      "No, el trabajador puede trabajar y no lo hace.",
+      "No, sólo tendría derecho a una indemnización",
+      "Tendría derecho al subsidio de desempleo si acreditara encontrarse en las situaciones descritas por la LGSS para cobrar esta ayuda",
+    ],
+  },
+  {
+    pregunta:
+      "Si el Servicio de Empleo ofrece al desempleado un trabajo a 25 km de su residencia y éste no lo acepta, ¿puede ser sancionado el desempleado, con la suspensión de su prestación?",
+    respuestaCorrecta: 2,
+    respuestas: [
+      "Sí ya que debe aceptar todas las ofertas de empleo que le surjan",
+      "No, ya que le obligaría a desplazarse",
+      "Sí",
+      "Debería aceptarla pero la primera vez que no acepte una oferta de empleo sólo recibiría una amonestación",
+    ],
+  },
+  {
+    pregunta:
+      "Dolores Sampedro, graduada en Asistencia Social y tras trabajar en un Ayuntamiento, lleva 9 meses en paro Ahora Lanbide le ofrece limpiar habitaciones en un hotel El hotel se encuentra en la ciudad de su domicilio ¿Puede negarse justamente a aceptar el trabajo sin ser sancionada por ello?",
+    respuestaCorrecta: 3,
+    respuestas: [
+      "Sí, dado que no parece que la oferta coincida con su profesión habitual",
+      "ebería aceptarla pero la primera vez que no acepte una oferta de empleo sólo recibiría una amonestación",
+      "No y sería sancionada con la suspensión de la prestación",
+      "Sí, dado que no parece que la oferta coincida con su profesión habitual y no ha pasado un año en desempleo",
+    ],
+  },
+  {
+    pregunta:
+      "Ruperta Aristrain ha estado un año en excedencia por cuidado de hijos y termina en junio Si no solicitara la reincorporación, ¿percibirá el desempleo?",
+    respuestaCorrecta: 0,
+    respuestas: [
+      "No",
+      "Sí, si vuelve a solicitar la reincorporación en el año siguiente",
+      "Sí, aunque se le reducirá en un 10%",
+      "Sí, dado que pasa a una situación legal de desempleo tras el año de excedencia",
+    ],
+  },
+  {
+    pregunta:
+      "Udane Retotibar tiene derecho a 3 meses de desempleo Después de un mes de estar cobrándolo, es madre ¿Qué cobrará?",
+    respuestaCorrecta: 3,
+    respuestas: [
+      "Desempleo",
+      "Desempleo y a la finalización del mismo, maternidad (cuidado) hasta la finalización de este",
+      "Maternidad",
+      "Se suspenderá el desempleo, cobrará la maternidad y al finalizar ésta, en su caso, de nuevo el desempleo (LGSS 284)",
+    ],
+  },
+  {
+    pregunta:
+      "Cuando los presos son liberados, ¿tienen la posibilidad de recibir un subsidio de desempleo?",
+    respuestaCorrecta: 3,
+    respuestas: [
+      "Sí han trabajado con anterioridad, al menos un año",
+      "Sí han trabajado con anterioridad, al menos un año y no han agotado el derecho al desempleo",
+      "No",
+      "Sí, aunque no haya trabajado antes: tiene naturaleza jurídica propia de subsidio",
+    ],
+  },
+  {
+    pregunta:
+      "Antonio de Antonio ha cobrado el desempleo desde que fue despedido de su empresa por causas económicas Tiene 63 años y acude a tu consulta para decidir si puede solicitar la jubilación Aporta una período cotizado de 38 años y 6 meses",
+    respuestaCorrecta: 1,
+    respuestas: [
+      "Sí podría, ya que su voluntad de jubilarse procede de una causa ajena a su voluntad y cumple con el resto de requisitos requeridos por la ley aunque se le aplicará un coeficiente reductor del 21% a la cuantía de la pensión",
+      "Sí podría, ya que su voluntad de jubilarse procede de una causa ajena a su voluntad y cumple con el resto de requisitos requeridos por la ley aunque se le aplicará un coeficiente reductor del 21% a la cuantía de la pensión. De todos modos, debería acreditar haber seis meses de inscripción en las oficinas de empleo inmediatamente anteriores a la solicitud de jubilación",
+      "Sí podría, ya que su voluntad de jubilarse procede de una causa ajena a su voluntad y cumple con el resto de requisitos requeridos por la ley",
+      "No podría",
+    ],
+  },
+  {
+    pregunta:
+      "Antonio de Antonio ha cobrado el desempleo y no desea seguir trabajando Tiene 63 años y acude a tu consulta para decidir si puede solicitar la pensión de jubilación Aporta una período cotizado de 38 años y 6 meses",
+    respuestaCorrecta: 3,
+    respuestas: [
+      "Sí podría",
+      "Debería esperar dos años y 4 meses más.",
+      "Debería esperar dos años y 4 meses más. De todos modos, debería acreditar seis meses de inscripción en las oficinas de empleo inmediatamente anteriores a la solicitud de jubilación",
+      "Debería esperar dos años y 4 meses más y acreditar que el importe de la pensión a percibir ha de resultar superior a la cuantía de la pensión mínima que le correspondería.",
+    ],
+  },
+  {
+    pregunta:
+      "Antonio de Antonio ha cobrado el desempleo y no desea seguir trabajando Tiene 65 años y 4 meses y acude a tu consulta para decidir si puede solicitar la pensión de jubilación Aporta una período cotizado de 37 años y 6 meses",
+    respuestaCorrecta: 1,
+    respuestas: [
+      "Sí podría aunque se le aplicará un coeficiente reductor del 5,50% a la cuantía de la pensión",
+      "Sí podría aunque se le aplicará un coeficiente reductor del 5,50% a la cuantía de la pensión. Además debería acreditar que el importe de la pensión a percibir es superior a la cuantía de la pensión mínima que le correspondería.",
+      "No es posible",
+      "Sí podría aunque se le aplicará un coeficiente reductor del 5,60% a la cuantía de la pensión. Además debería acreditar que el importe de la pensión a percibir es superior a la cuantía de la pensión mínima que le correspondería.",
+    ],
+  },
+  {
+    pregunta:
+      "Antonio de Antonio tiene 66 años y 6 meses Aporta una período cotizado de 37 años y 6 meses Se encuentra bien y no le importaría seguir trabajando Acude a tu despacho en busca de asesoramiento",
+    respuestaCorrecta: 2,
+    respuestas: [
+      "Por cada año adicional a la edad de jubilación que siga trabajando, recibirá un porcentaje adicional del 4% . Además recibirá una cantidad a tanto alzado por cada año de más",
+      "Por cada año adicional a la edad de jubilación que siga trabajando, recibirá un porcentaje adicional del 5%",
+      "Por cada año adicional a la edad de jubilación que siga trabajando, recibirá un porcentaje adicional del 4% . Podrá sustituir ese porcentaje adicional por una cantidad a tanto alzado por cada año que trabaje de más",
+      "No se bonifica y se debería jubilar cuanto antes",
     ],
   },
 ];
