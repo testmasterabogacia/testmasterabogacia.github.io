@@ -912,7 +912,7 @@ const laboralEdurneJson = [
   {
     pregunta:
       "La empresa X ha sancionado a Vicente por la comisión de una  falta muy grave privándole de su descanso mínimo semanal durante  el plazo de un mes ¿Es correcta la decisión de la empresa?",
-    respuestaCorrecta: 3,
+    respuestaCorrecta: 2,
     respuestas: [
       "Sí, la empresa podrá imponer esta sanción a Vicente siempre  que se lo notifique por escrito.",
       "Sí, la empresa podrá imponer esta sanción a Vicente siempre  que así esté prevista en el convenio colectivo que le sea aplicable.",
